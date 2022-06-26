@@ -10,7 +10,6 @@ The idea came from a real problem we had with one of our teammates who wanted to
 
 -----
 
-
 **How does the app works?**
 
 The application allows us to add our private charging station so that it is visible to all users on Be Charge under a new category of charging stations that are *private*. The application allows us to specify the days and months when we are available to accept cars for charging, manage bookins, and receive payment for reservations all through the application. 
@@ -67,6 +66,9 @@ After verifying the solution, evaluating the pros and cons, and refining the ide
 **Design process**
 
 For the design we followed the style of Be Charge, although this application could also be included on Eni Plenitude and be consistent with the design. 
+
+<img width="840" alt="Schermata 2022-06-26 alle 21 06 22" src="https://user-images.githubusercontent.com/92546954/175830052-b5692cf3-5331-4c1f-93dd-3d3299bd1d4a.png">
+
 
 We designed the app with a tabbar with three elements. 
 In the first element of the tabbar is the **dashboard**, with a report of KW/h sold, earnings and other information. Also in this screen you can add more charging stations and see the history of the recharges made.
