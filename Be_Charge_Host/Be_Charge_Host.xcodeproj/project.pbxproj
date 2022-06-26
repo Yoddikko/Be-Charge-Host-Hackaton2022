@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		757CB9382868851D00628010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757CB9372868851D00628010 /* Assets.xcassets */; };
+		757CB93B2868851D00628010 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757CB93A2868851D00628010 /* Preview Assets.xcassets */; };
+		757CB9442868853400628010 /* CalendarTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9422868853400628010 /* CalendarTabView.swift */; };
+		757CB9452868853400628010 /* CalendarSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9432868853400628010 /* CalendarSheetView.swift */; };
+		757CB9492868855500628010 /* ScrollViewOffsetReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9482868855500628010 /* ScrollViewOffsetReader.swift */; };
+		757CB94C2868856D00628010 /* Be_Charge_HostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB94A2868856D00628010 /* Be_Charge_HostApp.swift */; };
+		757CB94D2868856D00628010 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB94B2868856D00628010 /* CustomTabBarView.swift */; };
+		757CB9512868859F00628010 /* CalendarTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB94F2868859F00628010 /* CalendarTabViewModel.swift */; };
+		757CB9522868859F00628010 /* CustomTabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9502868859F00628010 /* CustomTabBarViewModel.swift */; };
+		757CB955286885E600628010 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB954286885E600628010 /* Colors.swift */; };
+		757CB958286885FC00628010 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB957286885FC00628010 /* NotificationService.swift */; };
+		757CB95A2868867B00628010 /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9592868867B00628010 /* RequestView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		757CB9302868851C00628010 /* Be_Charge_Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Be_Charge_Host.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		757CB9372868851D00628010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		757CB93A2868851D00628010 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		757CB9422868853400628010 /* CalendarTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTabView.swift; sourceTree = "<group>"; };
+		757CB9432868853400628010 /* CalendarSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarSheetView.swift; sourceTree = "<group>"; };
+		757CB9482868855500628010 /* ScrollViewOffsetReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetReader.swift; sourceTree = "<group>"; };
+		757CB94A2868856D00628010 /* Be_Charge_HostApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Be_Charge_HostApp.swift; sourceTree = "<group>"; };
+		757CB94B2868856D00628010 /* CustomTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		757CB94F2868859F00628010 /* CalendarTabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTabViewModel.swift; sourceTree = "<group>"; };
+		757CB9502868859F00628010 /* CustomTabBarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewModel.swift; sourceTree = "<group>"; };
+		757CB954286885E600628010 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		757CB957286885FC00628010 /* NotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		757CB9592868867B00628010 /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		757CB92D2868851C00628010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		757CB9272868851C00628010 = {
+			isa = PBXGroup;
+			children = (
+				757CB9322868851C00628010 /* Be_Charge_Host */,
+				757CB9312868851C00628010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		757CB9312868851C00628010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				757CB9302868851C00628010 /* Be_Charge_Host.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		757CB9322868851C00628010 /* Be_Charge_Host */ = {
+			isa = PBXGroup;
+			children = (
+				757CB956286885F400628010 /* Services */,
+				757CB953286885DD00628010 /* Extensions */,
+				757CB94E2868859500628010 /* ViewModels */,
+				757CB9412868852500628010 /* Views */,
+				757CB9372868851D00628010 /* Assets.xcassets */,
+				757CB9392868851D00628010 /* Preview Content */,
+			);
+			path = Be_Charge_Host;
+			sourceTree = "<group>";
+		};
+		757CB9392868851D00628010 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				757CB93A2868851D00628010 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		757CB9412868852500628010 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				757CB9472868854C00628010 /* Shared */,
+				757CB9462868854300628010 /* CalendarTab */,
+				757CB9592868867B00628010 /* RequestView.swift */,
+				757CB94A2868856D00628010 /* Be_Charge_HostApp.swift */,
+				757CB94B2868856D00628010 /* CustomTabBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		757CB9462868854300628010 /* CalendarTab */ = {
+			isa = PBXGroup;
+			children = (
+				757CB9432868853400628010 /* CalendarSheetView.swift */,
+				757CB9422868853400628010 /* CalendarTabView.swift */,
+			);
+			path = CalendarTab;
+			sourceTree = "<group>";
+		};
+		757CB9472868854C00628010 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				757CB9482868855500628010 /* ScrollViewOffsetReader.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		757CB94E2868859500628010 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				757CB94F2868859F00628010 /* CalendarTabViewModel.swift */,
+				757CB9502868859F00628010 /* CustomTabBarViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		757CB953286885DD00628010 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				757CB954286885E600628010 /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		757CB956286885F400628010 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				757CB957286885FC00628010 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		757CB92F2868851C00628010 /* Be_Charge_Host */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757CB93E2868851D00628010 /* Build configuration list for PBXNativeTarget "Be_Charge_Host" */;
+			buildPhases = (
+				757CB92C2868851C00628010 /* Sources */,
+				757CB92D2868851C00628010 /* Frameworks */,
+				757CB92E2868851C00628010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Be_Charge_Host;
+			productName = Be_Charge_Host;
+			productReference = 757CB9302868851C00628010 /* Be_Charge_Host.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		757CB9282868851C00628010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					757CB92F2868851C00628010 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 757CB92B2868851C00628010 /* Build configuration list for PBXProject "Be_Charge_Host" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 757CB9272868851C00628010;
+			productRefGroup = 757CB9312868851C00628010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				757CB92F2868851C00628010 /* Be_Charge_Host */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		757CB92E2868851C00628010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757CB93B2868851D00628010 /* Preview Assets.xcassets in Resources */,
+				757CB9382868851D00628010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		757CB92C2868851C00628010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757CB95A2868867B00628010 /* RequestView.swift in Sources */,
+				757CB94C2868856D00628010 /* Be_Charge_HostApp.swift in Sources */,
+				757CB955286885E600628010 /* Colors.swift in Sources */,
+				757CB94D2868856D00628010 /* CustomTabBarView.swift in Sources */,
+				757CB9512868859F00628010 /* CalendarTabViewModel.swift in Sources */,
+				757CB958286885FC00628010 /* NotificationService.swift in Sources */,
+				757CB9522868859F00628010 /* CustomTabBarViewModel.swift in Sources */,
+				757CB9452868853400628010 /* CalendarSheetView.swift in Sources */,
+				757CB9492868855500628010 /* ScrollViewOffsetReader.swift in Sources */,
+				757CB9442868853400628010 /* CalendarTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		757CB93C2868851D00628010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		757CB93D2868851D00628010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		757CB93F2868851D00628010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Be_Charge_Host/Preview Content\"";
+				DEVELOPMENT_TEAM = W63RPFLVSJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "carmineporricelli.Be-Charge-Host";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		757CB9402868851D00628010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Be_Charge_Host/Preview Content\"";
+				DEVELOPMENT_TEAM = W63RPFLVSJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "carmineporricelli.Be-Charge-Host";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		757CB92B2868851C00628010 /* Build configuration list for PBXProject "Be_Charge_Host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757CB93C2868851D00628010 /* Debug */,
+				757CB93D2868851D00628010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757CB93E2868851D00628010 /* Build configuration list for PBXNativeTarget "Be_Charge_Host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757CB93F2868851D00628010 /* Debug */,
+				757CB9402868851D00628010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 757CB9282868851C00628010 /* Project object */;
+}
