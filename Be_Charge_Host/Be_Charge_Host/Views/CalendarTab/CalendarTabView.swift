@@ -11,13 +11,13 @@ struct CalendarTabView: View {
     @StateObject private var calendarTabViewModel: CalendarTabViewModel = CalendarTabViewModel()
     
     private var days: Array<CalendarTabViewModel.Day> { CalendarTabViewModel.daysMock }
+   
     private var monthAndYear: String {
         let formatter = DateFormatter()
         formatter.dateFormat = "MMMM YYYY"
         
         return formatter.string(from: Date())
     }
-        
     
     var body: some View {
         
@@ -27,7 +27,7 @@ struct CalendarTabView: View {
                 Spacer()
             }
             
-            CalendarSheet()
+            CalendarSheet(selectedDay: calendarTabViewModel.selectedDay)
             
         }
         .background(Color.gray100)
@@ -38,6 +38,7 @@ struct CalendarTabView: View {
         VStack {
             HStack {
                 Text(monthAndYear)
+                    .foregroundColor(.customPrimary)
                     .font(.title)
                     .fontWeight(.bold)
                     .padding()
@@ -67,6 +68,12 @@ struct CalendarTabView: View {
                                 .foregroundColor(isActive ? .customPrimary : .customSecondary)
                                 .fontWeight(isActive ? .bold : .regular)
                             
+                        }
+                        
+                        if isActive {
+                            Circle()
+                                .fill(Color.customPrimary)
+                                .frame(width: 5, height: 5)
                         }
                     }
                     .frame(maxWidth: .infinity)

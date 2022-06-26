@@ -19,6 +19,8 @@
 		757CB955286885E600628010 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB954286885E600628010 /* Colors.swift */; };
 		757CB958286885FC00628010 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB957286885FC00628010 /* NotificationService.swift */; };
 		757CB95A2868867B00628010 /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9592868867B00628010 /* RequestView.swift */; };
+		757CB95D2868979100628010 /* RequestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB95C2868979100628010 /* RequestListView.swift */; };
+		757CB95F2868981700628010 /* RequestListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB95E2868981700628010 /* RequestListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +36,9 @@
 		757CB9502868859F00628010 /* CustomTabBarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewModel.swift; sourceTree = "<group>"; };
 		757CB954286885E600628010 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		757CB957286885FC00628010 /* NotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		757CB9592868867B00628010 /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestView.swift; sourceTree = "<group>"; };
+		757CB9592868867B00628010 /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RequestView.swift; path = ../RequestView.swift; sourceTree = "<group>"; };
+		757CB95C2868979100628010 /* RequestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestListView.swift; sourceTree = "<group>"; };
+		757CB95E2868981700628010 /* RequestListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				757CB9472868854C00628010 /* Shared */,
+				757CB95B2868978000628010 /* Requests */,
 				757CB9462868854300628010 /* CalendarTab */,
-				757CB9592868867B00628010 /* RequestView.swift */,
 				757CB94A2868856D00628010 /* Be_Charge_HostApp.swift */,
 				757CB94B2868856D00628010 /* CustomTabBarView.swift */,
 			);
@@ -137,6 +141,16 @@
 				757CB957286885FC00628010 /* NotificationService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		757CB95B2868978000628010 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				757CB9592868867B00628010 /* RequestView.swift */,
+				757CB95C2868979100628010 /* RequestListView.swift */,
+				757CB95E2868981700628010 /* RequestListItemView.swift */,
+			);
+			path = Requests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +231,8 @@
 				757CB958286885FC00628010 /* NotificationService.swift in Sources */,
 				757CB9522868859F00628010 /* CustomTabBarViewModel.swift in Sources */,
 				757CB9452868853400628010 /* CalendarSheetView.swift in Sources */,
+				757CB95F2868981700628010 /* RequestListItemView.swift in Sources */,
+				757CB95D2868979100628010 /* RequestListView.swift in Sources */,
 				757CB9492868855500628010 /* ScrollViewOffsetReader.swift in Sources */,
 				757CB9442868853400628010 /* CalendarTabView.swift in Sources */,
 			);

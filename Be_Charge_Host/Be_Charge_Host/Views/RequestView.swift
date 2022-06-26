@@ -10,115 +10,85 @@ import SwiftUI
 struct RequestView: View {
     var body: some View {
         
-        VStack{
-//
-            ZStack{
-                Circle()
-                    .foregroundColor(Color.customPrimary)
-                    .frame(width: 1400, height: 1400)
-
-                VStack{
-                    Spacer()
-
-                    Text("Requests")
-                        .foregroundColor(.white)
-                        .fontWeight(.semibold)
-                        .font(.system(size: 18))
-                        .font(.title3)
-                        .padding(.bottom, 40)
-                }
-            }
-            .padding(.bottom, 2060)
+        VStack {
             
-            VStack{
-                HStack{
+            VStack {
                     
-                    Spacer()
-                    
-                    Text("Mario Rossi is")
-                        .font(.system(size: 26))
-                        .fontWeight(.semibold)
-                        .foregroundColor(Color.customPrimary)
-                    
-                    Spacer()
-                }
-                
-                Text("by requesting your column")
-                    .font(.system(size: 26))
+                Text("Mario Rossi is requesting your column")
+                    .font(.title)
                     .fontWeight(.semibold)
-                    .padding(.bottom)
-                    .foregroundColor(Color("Primary"))
-                
-                
-                Text("Mario wishes to use Lorem Ipsum")
-                    .font(.system(size: 22))
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(Color.customPrimary)
+                    .padding(.top)
+                    
+                                                                
+                Text("Renault Megane 40 kWh, Plug C")
+                    .font(.title2)
                     .fontWeight(.regular)
                     .padding(3)
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.customSecondary)
                 
                 Text("Sun Jun 26, 2022 at 5:45 pm")
-                    .font(.system(size: 22))
+                    .font(.body)
                     .fontWeight(.regular)
                     .padding(3)
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.customSecondary)
                 
-                Text("Renault Megane 40 kWh, Plug C")
-                    .font(.system(size: 22))
-                    .fontWeight(.regular)
-                    .padding(3)
-                    .foregroundColor(.secondary)
+                Spacer()
+
                 
                 Image("Car")
                     .resizable()
-                    .frame(width: 275, height: 178, alignment: .center)
+                    .frame(width: 275, height: 178)
                     .padding()
-                    .padding(.bottom, 40)
                 
                 
+                Spacer()
                 
-                HStack{
-                    
-                    Button(action: {
-                        
-                    }, label: {
-                        
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(.white)
-                                .frame(width: 158, height: 53)
-                                .shadow(color: .customPrimary, radius: 0, x: 0, y: 4)
-                                .blur(radius: 1)
-                            
-                                Text("Rejects")
-                                .foregroundColor(.black)
-                                .font(.system(size: 20))
-                                .fontWeight(.regular)
-                        }
-                        .padding(6)
-                    })
-                    
-                    Button(action: {
-                        
-                    }, label: {
-                        
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(Color("AccentColor"))
-                                .frame(width: 158, height: 53)
-                                .shadow(color: Color("AccentColor"), radius: 0, x: 0, y: 3)
-                                .blur(radius: 1)
-                            
-                                Text("Accepts")
-                                .foregroundColor(.white)
-                                .font(.system(size: 20))
-                                .fontWeight(.regular)
-                        }
-                        .padding(6)
-                    })
+                                
+                HStack {
+                    makeRejectButton()
+                    makeAcceptButton()
                 }
+                .padding()
             }
-            .padding(.top, -2000)
         }
+    }
+    
+    
+    @ViewBuilder
+    private func makeRejectButton() -> some View {
+        Button { } label: {
+            
+            Text("Rejects")
+                .foregroundColor(.customPrimary)
+                .padding(.vertical)
+                .frame(maxWidth: .infinity)
+                .background {
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill(.white)
+                        .shadow(color: .customSecondary.opacity(0.2), radius: 10, x: 0, y: 8)
+
+                }
+        }
+    }
+    
+    @ViewBuilder
+    private func makeAcceptButton() -> some View {
+        Button { } label: {
+            
+            Text("Accepts")
+                .foregroundColor(.white)
+                .padding(.vertical)
+                .frame(maxWidth: .infinity)
+                .background {
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill(Color.accentColor)
+                        .shadow(color: .accentColor.opacity(0.2), radius: 10, x: 0, y: 8)
+
+                }
+        }
+
     }
 }
 

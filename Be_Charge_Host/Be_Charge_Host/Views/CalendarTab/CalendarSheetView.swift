@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CalendarSheet: View {
     
+    let selectedDay: CalendarTabViewModel.Day
     @State private var scrollOffset: CGFloat = 0.0
     
     
@@ -19,149 +20,113 @@ struct CalendarSheet: View {
         return scale >= 1 ? 1 : scale
     }
     
+    private var weekdayAndDay: String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE dd"
+        
+        return formatter.string(from: Date())
+    }
+    
     var body: some View {
         
         ScrollViewOffsetReader(scrollOffset: $scrollOffset) {
+            Rectangle()
+                .fill(.clear)
+                .frame(height: 180)
+                .allowsHitTesting(false)
+            
             ZStack {
                 
-                RoundedRectangle(cornerRadius: 50)
-                    .frame(width: UIScreen.main.bounds.width, height: 800)
-                    .offset(y: 40)
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(maxWidth: .infinity)
                     .foregroundColor(.white)
                     .padding(.top, 30)
                 
                 VStack{
                     HStack{
                         
-                        Text("12 visitors")
-                            .foregroundColor(.purple)
-                            .font(.title3)
+                        Text(weekdayAndDay)
+                            .foregroundColor(.customPrimary)
+                            .font(.title2)
                             .fontWeight(.semibold)
-                            .padding()
+                        
                         
                         Spacer()
+                        
+                        Text("4 rented")
+                            .foregroundColor(.customSecondary)
+                            .font(.body)
+                        
                     }
                     .padding()
                     
-                    HStack{
-                        VStack{
-                            Text("08:00")
-                                .font(.body)
-                            
-                            Text("AM")
-                                .foregroundColor(.secondary)
-                                .font(.body)
-                        }
-                            
-                            RoundedRectangle(cornerRadius: 50)
-                                .frame(width: 330, height: 0.5)
-                                .foregroundColor(.secondary)
-                    }
                     
-                    HStack{
-                        Spacer()
-                        
-                        VStack{
-                            
-                            RoundedRectangle(cornerRadius: 300)
-                                .frame(width: 300, height: 80)
-                                .foregroundColor(Color("Trasparent"))
-                                .padding(.trailing)
-                            
-                            RoundedRectangle(cornerRadius: 300)
-                                .frame(width: 300, height: 80)
-                                .foregroundColor(Color("Trasparent"))
-                                .padding(.trailing)
-                        }
-                    }
-                    
-                    HStack{
-                        VStack{
-                            Text("08:30")
-                                .font(.body)
-                            
-                            Text("AM")
-                                .foregroundColor(.secondary)
-                                .font(.body)
-                        }
-                            
-                            RoundedRectangle(cornerRadius: 50)
-                                .frame(width: 330, height: 0.5)
-                                .foregroundColor(.secondary)
-                    }
-                    
-                    HStack{
-//                        Spacer()
-                        
-                        Text("Break")
-                            .font(.title2)
-                            .fontWeight(.medium)
-                    }
-                    
-                    HStack{
-                        VStack{
-                            Text("09:00")
-                                .font(.body)
-                            
-                            Text("AM")
-                                .foregroundColor(.secondary)
-                                .font(.body)
-                        }
-                            
-                            RoundedRectangle(cornerRadius: 50)
-                                .frame(width: 330, height: 0.5)
-                                .foregroundColor(.secondary)
-                    }
-                    
-                    HStack{
-                        Spacer()
-                        
-                        VStack{
-                            
-                            RoundedRectangle(cornerRadius: 300)
-                                .frame(width: 300, height: 80)
-                                .foregroundColor(Color("Trasparent"))
-                                .padding(.trailing)
-                        }
-                    }
-                    
-                    HStack{
-                        VStack{
-                            Text("09:30")
-                                .font(.body)
-                            
-                            Text("AM")
-                                .foregroundColor(.secondary)
-                                .font(.body)
-                        }
-                            
-                            RoundedRectangle(cornerRadius: 50)
-                                .frame(width: 330, height: 0.5)
-                                .foregroundColor(.secondary)
-                    }
-                    
-                    HStack{
-                        Spacer()
-                        
-                        VStack{
-                            
-                            RoundedRectangle(cornerRadius: 300)
-                                .frame(width: 300, height: 80)
-                                .foregroundColor(Color("Trasparent"))
-                                .padding(.trailing)
-                        }
-                    }
-                    
+                    //MARK: - Test
+                    makeRentTimeBlock(for: "08:00")
+                    makeRentTimeBlock(for: "10:00")
+                    makeRentTimeBlock(for: "12:00")
+                    makeRentTimeBlock(for: "17:00")
+
                 }
+                .padding(.top, 40)
+                .padding(.bottom, 100)
             }
-            .padding(.top, 160)
             .scaleEffect(contentScale, anchor: .top)
+            
+            
         }
+    }
+    
+    
+    @ViewBuilder
+    private func makeRentTimeBlock(for time: String) -> some View {
+        HStack(alignment: .top) {
+            Text(time)
+                .foregroundColor(.customPrimary)
+                .font(.body)
+                .fontWeight(.medium)
+            
+            
+            Divider()
+                .padding(.horizontal, 8)
+                        
+            RoundedRectangle(cornerRadius: 20)
+                .fill(Color.customPrimary)
+                .frame(height: 100)
+                .frame(maxWidth: .infinity)
+                .overlay {
+                    VStack(alignment: .leading) {
+                        
+                        HStack {
+                            Text("Marilea Minasi")
+                                .fontWeight(.semibold)
+                            Spacer()
+                        }
+                        
+                        HStack {
+                            Text("Renault Megan (2022)")
+                            Spacer()
+                        }
+                        Spacer()
+
+                        
+                        HStack {
+                            Label("00:45:12", systemImage: "clock")
+                                .foregroundColor(.gray200)
+                                .font(.footnote)
+                        }
+                        
+                    }
+                    .foregroundColor(.white)
+                    .padding()
+                }
+        }
+        .padding()
     }
 }
 
 struct CalendarSheet_Previews: PreviewProvider {
     static var previews: some View {
-        CalendarSheet()
+        CalendarSheet(selectedDay: .init(date: Date()))
     }
 }

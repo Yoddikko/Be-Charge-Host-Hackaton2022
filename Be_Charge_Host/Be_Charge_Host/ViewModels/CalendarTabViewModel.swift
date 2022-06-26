@@ -8,7 +8,7 @@
 import Foundation
 
 class CalendarTabViewModel: ObservableObject {
-    @Published private(set) var selectedDay = daysMock.first!
+    @Published private(set) var selectedDay = daysMock[2]
     
     func send(action: Action) {
         switch action {
