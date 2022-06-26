@@ -1,4 +1,4 @@
-# Sharger - Share your energy 
+# Be Charge Host 
 ## Hackaton 2022 - Eni
 A project made for the 2022 big hack for the Eni challenge by <b>import CoreData</b> team
 
