@@ -78,7 +78,7 @@ The third element of the tabbar is the **support** section.
 In addition, when a **booking request arrives**, a notification pops up. If we open the notification, or we already had the app open, a view will appear that will allow us to accept or reject the booking request.
 These are the Hi-Fi prototypes we made: 
 
-[<img src="https://user-images.githubusercontent.com/94188485/175825103-68c49226-7be6-4d46-9a1d-96a3d5c3d9a3.png" width="200"/>](ciaone) [<img src="https://user-images.githubusercontent.com/94188485/175825104-d01aadb5-9ad6-4c8c-a7ab-f3ad0840f97c.png" width="200"/>](ciaone) [<img src="https://user-images.githubusercontent.com/94188485/175825106-6c85f343-ff84-4018-b902-3bab9ac25540.png" width="200"/>](ciaone) [<img src="https://user-images.githubusercontent.com/94188485/175825238-bf3c5085-d14c-4eea-b087-31500bd8fa9b.png" width="200"/>](ciaone)
+[<img src="https://user-images.githubusercontent.com/94188485/175825103-68c49226-7be6-4d46-9a1d-96a3d5c3d9a3.png" width="200"/>](ciaone) [<img src="https://user-images.githubusercontent.com/94188485/175825104-d01aadb5-9ad6-4c8c-a7ab-f3ad0840f97c.png" width="200"/>](ciaone) [<img src="https://user-images.githubusercontent.com/94188485/175825106-6c85f343-ff84-4018-b902-3bab9ac25540.png" width="200"/>](ciaone) [<img src="https://user-images.githubusercontent.com/94188485/175825288-ce0f104f-303a-4b59-ab74-2f323a922e18.png" width="200"/>](ciaone)
 
 -----
 
