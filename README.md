@@ -78,8 +78,13 @@ The third element of the tabbar is the **support** section.
 In addition, when a **booking request arrives**, a notification pops up. If we open the notification, or we already had the app open, a view will appear that will allow us to accept or reject the booking request.
 These are the Hi-Fi prototypes we made: 
 
-[<img src="https://i.ibb.co/LvthQhp/Schermata-2022-06-26-alle-15-17-25.png)" width="650"/>](ciaone)
+[<img src="https://user-images.githubusercontent.com/94188485/175825103-68c49226-7be6-4d46-9a1d-96a3d5c3d9a3.png" width="650"/>](ciaone)
 
+[<img src="https://user-images.githubusercontent.com/94188485/175825104-d01aadb5-9ad6-4c8c-a7ab-f3ad0840f97c.png" width="650"/>](ciaone)
+
+[<img src="https://user-images.githubusercontent.com/94188485/175825106-6c85f343-ff84-4018-b902-3bab9ac25540.png" width="650"/>](ciaone)
+
+[<img src="(https://user-images.githubusercontent.com/94188485/175825108-7fdf37a3-00c8-4e2a-a4d8-38ca76f435de.png" width="650"/>](ciaone)
 
 
 -----
