@@ -32,7 +32,7 @@ struct CustomTabBarView: View {
         ZStack {
             switch customTabViewModel.activeTab {
             case .profile:
-                EmptyView()
+                DashboardTabView()
             case .calendar:
                 CalendarTabView()
             case .help:

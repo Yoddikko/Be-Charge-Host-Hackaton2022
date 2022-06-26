@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct RequestListView: View {
+    
+    @Binding var isPresented: Bool
+    
     var body: some View {
         ScrollView {
             VStack {
@@ -20,6 +23,10 @@ struct RequestListView: View {
                         .padding(.vertical)
                     
                     Spacer()
+                    
+                    Button { isPresented.toggle() } label: {
+                        Text("Close")
+                    }
                 }
                 
                 RequestListItemView()
@@ -39,6 +46,6 @@ struct RequestListView: View {
 
 struct RequestListView_Previews: PreviewProvider {
     static var previews: some View {
-        RequestListView()
+        RequestListView(isPresented: .constant(true))
     }
 }

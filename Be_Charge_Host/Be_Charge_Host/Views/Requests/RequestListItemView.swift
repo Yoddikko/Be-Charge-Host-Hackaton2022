@@ -52,11 +52,11 @@ struct RequestListItemView: View {
     private func makeDiscardButton() -> some View {
         Button {} label: {
             Image(systemName: "xmark")
-                .foregroundColor(.customPrimary)
+                .foregroundColor(.accentColor)
                 .padding(12)
                 .background {
                     RoundedRectangle(cornerRadius: 8)
-                        .stroke(Color.customPrimary)
+                        .stroke(Color.accentColor)
                 }
         }
     }
