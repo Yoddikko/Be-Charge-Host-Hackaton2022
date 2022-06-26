@@ -13,6 +13,8 @@ class NotificationService: NSObject, ObservableObject, UNUserNotificationCenterD
     private var cancellables: Set<AnyCancellable> = []
     private let notificationCenter = UNUserNotificationCenter.current()
     
+    @Published var isPresented: Bool = false
+    
     override init() {
         super.init()
         
@@ -30,6 +32,7 @@ class NotificationService: NSObject, ObservableObject, UNUserNotificationCenterD
             .sink { _ in
                 print("SENT")
                 self.sendNotification()
+                self.isPresented = true
             }
             .store(in: &cancellables)
     }

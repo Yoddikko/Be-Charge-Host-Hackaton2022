@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct RequestView: View {
+    
+    @Binding var isPresented: Bool
+    
     var body: some View {
         
         VStack {
@@ -58,7 +61,7 @@ struct RequestView: View {
     
     @ViewBuilder
     private func makeRejectButton() -> some View {
-        Button { } label: {
+        Button { isPresented = false } label: {
             
             Text("Rejects")
                 .foregroundColor(.customPrimary)
@@ -75,7 +78,7 @@ struct RequestView: View {
     
     @ViewBuilder
     private func makeAcceptButton() -> some View {
-        Button { } label: {
+        Button { isPresented = false } label: {
             
             Text("Accepts")
                 .foregroundColor(.white)
@@ -94,6 +97,6 @@ struct RequestView: View {
 
 struct RequestView_Previews: PreviewProvider {
     static var previews: some View {
-        RequestView()
+        RequestView(isPresented: .constant(true))
     }
 }

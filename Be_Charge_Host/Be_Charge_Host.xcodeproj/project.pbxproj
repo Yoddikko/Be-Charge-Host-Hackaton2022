@@ -16,17 +16,19 @@
 		757CB94D2868856D00628010 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB94B2868856D00628010 /* CustomTabBarView.swift */; };
 		757CB9512868859F00628010 /* CalendarTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB94F2868859F00628010 /* CalendarTabViewModel.swift */; };
 		757CB9522868859F00628010 /* CustomTabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9502868859F00628010 /* CustomTabBarViewModel.swift */; };
-		757CB955286885E600628010 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB954286885E600628010 /* Colors.swift */; };
+		757CB955286885E600628010 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB954286885E600628010 /* Colors+Extension.swift */; };
 		757CB958286885FC00628010 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB957286885FC00628010 /* NotificationService.swift */; };
 		757CB95A2868867B00628010 /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9592868867B00628010 /* RequestView.swift */; };
 		757CB95D2868979100628010 /* RequestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB95C2868979100628010 /* RequestListView.swift */; };
 		757CB95F2868981700628010 /* RequestListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB95E2868981700628010 /* RequestListItemView.swift */; };
 		757CB9622868A05100628010 /* DashboardTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9612868A05100628010 /* DashboardTabView.swift */; };
 		757CB9642868B31900628010 /* SessionListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9632868B31900628010 /* SessionListItemView.swift */; };
+		757CB9672868BC6100628010 /* OnGoingActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9662868BC6100628010 /* OnGoingActivitiesView.swift */; };
+		757CB9692868C14C00628010 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CB9682868C14C00628010 /* UINavigationController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		757CB9302868851C00628010 /* Be_Charge_Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Be_Charge_Host.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		757CB9302868851C00628010 /* Be Charge Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be Charge Host.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		757CB9372868851D00628010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		757CB93A2868851D00628010 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		757CB9422868853400628010 /* CalendarTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTabView.swift; sourceTree = "<group>"; };
@@ -36,13 +38,15 @@
 		757CB94B2868856D00628010 /* CustomTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		757CB94F2868859F00628010 /* CalendarTabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTabViewModel.swift; sourceTree = "<group>"; };
 		757CB9502868859F00628010 /* CustomTabBarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewModel.swift; sourceTree = "<group>"; };
-		757CB954286885E600628010 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		757CB954286885E600628010 /* Colors+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
 		757CB957286885FC00628010 /* NotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		757CB9592868867B00628010 /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RequestView.swift; path = ../RequestView.swift; sourceTree = "<group>"; };
 		757CB95C2868979100628010 /* RequestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestListView.swift; sourceTree = "<group>"; };
 		757CB95E2868981700628010 /* RequestListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestListItemView.swift; sourceTree = "<group>"; };
 		757CB9612868A05100628010 /* DashboardTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabView.swift; sourceTree = "<group>"; };
 		757CB9632868B31900628010 /* SessionListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionListItemView.swift; sourceTree = "<group>"; };
+		757CB9662868BC6100628010 /* OnGoingActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnGoingActivitiesView.swift; sourceTree = "<group>"; };
+		757CB9682868C14C00628010 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +71,7 @@
 		757CB9312868851C00628010 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				757CB9302868851C00628010 /* Be_Charge_Host.app */,
+				757CB9302868851C00628010 /* Be Charge Host.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,7 +140,8 @@
 		757CB953286885DD00628010 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				757CB954286885E600628010 /* Colors.swift */,
+				757CB954286885E600628010 /* Colors+Extension.swift */,
+				757CB9682868C14C00628010 /* UINavigationController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 		757CB9652868BA1000628010 /* OnGoingActivities */ = {
 			isa = PBXGroup;
 			children = (
+				757CB9662868BC6100628010 /* OnGoingActivitiesView.swift */,
 			);
 			path = OnGoingActivities;
 			sourceTree = "<group>";
@@ -192,7 +198,7 @@
 			);
 			name = Be_Charge_Host;
 			productName = Be_Charge_Host;
-			productReference = 757CB9302868851C00628010 /* Be_Charge_Host.app */;
+			productReference = 757CB9302868851C00628010 /* Be Charge Host.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -247,14 +253,16 @@
 			files = (
 				757CB95A2868867B00628010 /* RequestView.swift in Sources */,
 				757CB94C2868856D00628010 /* Be_Charge_HostApp.swift in Sources */,
-				757CB955286885E600628010 /* Colors.swift in Sources */,
+				757CB955286885E600628010 /* Colors+Extension.swift in Sources */,
 				757CB94D2868856D00628010 /* CustomTabBarView.swift in Sources */,
 				757CB9512868859F00628010 /* CalendarTabViewModel.swift in Sources */,
 				757CB958286885FC00628010 /* NotificationService.swift in Sources */,
 				757CB9522868859F00628010 /* CustomTabBarViewModel.swift in Sources */,
+				757CB9672868BC6100628010 /* OnGoingActivitiesView.swift in Sources */,
 				757CB9452868853400628010 /* CalendarSheetView.swift in Sources */,
 				757CB95F2868981700628010 /* RequestListItemView.swift in Sources */,
 				757CB9642868B31900628010 /* SessionListItemView.swift in Sources */,
+				757CB9692868C14C00628010 /* UINavigationController+Extension.swift in Sources */,
 				757CB9622868A05100628010 /* DashboardTabView.swift in Sources */,
 				757CB95D2868979100628010 /* RequestListView.swift in Sources */,
 				757CB9492868855500628010 /* ScrollViewOffsetReader.swift in Sources */,
@@ -390,6 +398,7 @@
 				DEVELOPMENT_TEAM = W63RPFLVSJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Be Charge Host";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -401,7 +410,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "carmineporricelli.Be-Charge-Host";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Be Charge Host";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -419,6 +428,7 @@
 				DEVELOPMENT_TEAM = W63RPFLVSJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Be Charge Host";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,7 +440,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "carmineporricelli.Be-Charge-Host";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Be Charge Host";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
