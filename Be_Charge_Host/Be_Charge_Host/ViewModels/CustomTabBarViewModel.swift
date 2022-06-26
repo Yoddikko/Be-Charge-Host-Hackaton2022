@@ -8,7 +8,7 @@
 import Foundation
 
 final class CustomTabViewModel: ObservableObject {
-    @Published private(set) var activeTab: Tab.TabType = .calendar
+    @Published private(set) var activeTab: Tab.TabType = .profile
     
     func send(action: Action) {
         switch action {

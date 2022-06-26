@@ -99,6 +99,7 @@
 				757CB9472868854C00628010 /* Shared */,
 				757CB95B2868978000628010 /* Requests */,
 				757CB9602868A03B00628010 /* DashboardTab */,
+				757CB9652868BA1000628010 /* OnGoingActivities */,
 				757CB9462868854300628010 /* CalendarTab */,
 				757CB94A2868856D00628010 /* Be_Charge_HostApp.swift */,
 				757CB94B2868856D00628010 /* CustomTabBarView.swift */,
@@ -165,6 +166,13 @@
 				757CB9632868B31900628010 /* SessionListItemView.swift */,
 			);
 			path = DashboardTab;
+			sourceTree = "<group>";
+		};
+		757CB9652868BA1000628010 /* OnGoingActivities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnGoingActivities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
