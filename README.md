@@ -90,10 +90,11 @@ We developed our solution in Swift on Xcode as an iPhone application. The applic
 https://user-images.githubusercontent.com/92546954/175827309-564094d4-a3c7-4606-8698-6b6412b0cc7c.mov
 
 ## Team Members
-Alessio Iodice
-Martina Esposito
-Luca Basile
-Marilea Minasi
+Alessio Iodice,
+Martina Esposito,
+Luca Basile,
+Marilea Minasi,
+Carmine Porricelli.
 
 
 ## Team logo
