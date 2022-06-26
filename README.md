@@ -18,9 +18,6 @@ The application starts by asking us if we already have a charging station or wan
 **In case we want to purchase one**, the application redirects us to the form to purchase a Be Charge charging station.
 On the other hand, **in case we already have one**, the app makes us enter our data and after due verification, if all the information has been verified and accepted we could access the homepage of the application. 
 
-SCREENSHOT, VIDEOS, GIFS ETC..
-
-
 -----
 
 
