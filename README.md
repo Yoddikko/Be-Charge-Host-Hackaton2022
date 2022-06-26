@@ -86,6 +86,10 @@ These are the Hi-Fi prototypes we made:
 
 We developed our solution in Swift on Xcode as an iPhone application. The application is only a demo/protype.
 
+
+https://user-images.githubusercontent.com/92546954/175827309-564094d4-a3c7-4606-8698-6b6412b0cc7c.mov
+
+
 ## Team logo
   <p align="center">
   <img width="582" alt="User Flow Eni Challenge" src="https://user-images.githubusercontent.com/92546954/175790340-080e3405-7877-4d5c-b9f6-aab79f179948.png">
