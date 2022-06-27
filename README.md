@@ -56,7 +56,14 @@ Pro and cons of Eni:
 Now *we do not know the exact costs and earnings*, but from our point of view we believe this kind of business is sustainable and has **already been replicated in other parts of the world**.
 After verifying the solution, evaluating the pros and cons, and refining the idea, we moved on to the actual implementation of the design and code
 
+**What are the benefits of Eni?**
+Eni could gain from the increase in customers, increase in electric cars, and especially by taking a percentage of each recharge made.
 
+**What are the benefits of the hosts?**
+Hosts could benefit from each recharge, which is paid for during the booking process by the Be Charge user.
+
+**What are the benefits of the Be Charge user?**
+The be charge user will always be assured that there are charging stations nearby.
 
 -----
 
