@@ -2,6 +2,8 @@
 ## Hackaton 2022 - Eni
 A project made for the 2022 big hack for the Eni challenge by <b>import CoreData</b> team
 
+### FINALISTS 🏁
+
 <img width="1440" alt="Schermata 2022-06-25 alle 19 14 37" src="https://user-images.githubusercontent.com/92546954/175784015-9838f5be-e104-4d77-a778-933cfbdd6dd1.png">
 
 The **Be Charge Host** is an app for iOS that gives people who own charging stations the ability to share them with other users who use the **Be Charge** app. So this app would like to be the counterpart of Be Charge but for charging station hosts. It would also connect to Eni Plenitude.
